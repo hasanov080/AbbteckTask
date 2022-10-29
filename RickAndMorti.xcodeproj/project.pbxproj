@@ -60,6 +60,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123A911B290D8D8D00095878 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				12823ADC290AE076005D1A7F /* FilterParameters.swift */,
+				12CAC942290CE77000C71348 /* BaseVC.swift */,
+				12823AC8290ADBBC005D1A7F /* AppDelegate.swift */,
+				12823ACA290ADBBC005D1A7F /* SceneDelegate.swift */,
+				12823AE0290AE927005D1A7F /* Extensions.swift */,
+				12823AD3290ADBBE005D1A7F /* LaunchScreen.storyboard */,
+				12823AD1290ADBBE005D1A7F /* Assets.xcassets */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		123A911C290D8DA500095878 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				123A911E290D8DD700095878 /* Model */,
+				123A911D290D8DAF00095878 /* View */,
+				123A911F290D8DF200095878 /* View Model */,
+			);
+			path = SearchScreen;
+			sourceTree = "<group>";
+		};
+		123A911D290D8DAF00095878 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12823ADE290AE78E005D1A7F /* FilterCVCell.swift */,
+				12823ACC290ADBBC005D1A7F /* CharactersVC.swift */,
+				12823AE2290AEC25005D1A7F /* CharactersCell.swift */,
+				12CAC940290CE0DC00C71348 /* OptionsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123A911E290D8DD700095878 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				127C2CE7290BF90400D3015E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123A911F290D8DF200095878 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				12823AE4290AF32D005D1A7F /* CharactersVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		123A9120290D8E1D00095878 /* DetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				123A9119290D7E9A00095878 /* CharacterDetailVC.swift */,
+			);
+			path = DetailsScreen;
+			sourceTree = "<group>";
+		};
 		12823ABC290ADBBC005D1A7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,21 +140,10 @@
 		12823AC7290ADBBC005D1A7F /* RickAndMorti */ = {
 			isa = PBXGroup;
 			children = (
-				12823AC8290ADBBC005D1A7F /* AppDelegate.swift */,
-				12823ACA290ADBBC005D1A7F /* SceneDelegate.swift */,
-				12823ACC290ADBBC005D1A7F /* CharactersVC.swift */,
-				12CAC942290CE77000C71348 /* BaseVC.swift */,
-				12CAC940290CE0DC00C71348 /* OptionsTableViewCell.swift */,
-				12823AE4290AF32D005D1A7F /* CharactersVM.swift */,
-				12823AE0290AE927005D1A7F /* Extensions.swift */,
-				12823ADC290AE076005D1A7F /* FilterParameters.swift */,
-				12823ADE290AE78E005D1A7F /* FilterCVCell.swift */,
+				123A911C290D8DA500095878 /* SearchScreen */,
+				123A9120290D8E1D00095878 /* DetailsScreen */,
+				123A911B290D8D8D00095878 /* Helpers */,
 				12823ACE290ADBBC005D1A7F /* Main.storyboard */,
-				123A9119290D7E9A00095878 /* CharacterDetailVC.swift */,
-				127C2CE7290BF90400D3015E /* Model.swift */,
-				12823AE2290AEC25005D1A7F /* CharactersCell.swift */,
-				12823AD1290ADBBE005D1A7F /* Assets.xcassets */,
-				12823AD3290ADBBE005D1A7F /* LaunchScreen.storyboard */,
 				12823AD6290ADBBE005D1A7F /* Info.plist */,
 			);
 			path = RickAndMorti;
